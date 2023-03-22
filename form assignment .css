@@ -1,0 +1,90 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: url("https://i.postimg.cc/kg49Gfqt/side-hustle.jpg") no-repeat center;
+  background-size: cover;
+  height: auto;
+  font-family: 'Roboto';
+}
+
+
+.container{
+  max-width: 800px;
+  height: 700px;
+  background: #fff;
+  margin: 50px auto;
+  box-shadow: 0 0 20px;
+  box-sizing: border-box;
+  padding: 40px;
+}
+
+p{
+  text-align: center;
+  letter-spacing: 1px;  
+  font-size: 45px;
+  margin-bottom: 20px;
+  color:rgb(42, 46, 66) ;
+}
+
+.input,
+.msg .area{
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  border: 2px solid #e9eaea;
+  font-size: 14px;
+  border-radius: 5px;
+  outline: none;
+  transform: all 0.5s ease;
+}
+
+.login .input{
+  width: 48%;
+  float: left;
+  margin-right: 4%;
+}
+
+.login .input:last-child{
+  margin-right: 0;
+}
+
+.msg .area{
+  height: 200px;
+}
+input[type=button],
+      input[type=submit] {
+  width: 250px;
+  background: #486255;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 0 auto;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  right: 500px;
+  
+      }
+input[type=button],input[type=submit]:hover {
+	background: #779d8a;
+	border: 1px solid  #779d8a;
+	border-radius: px;
+	box-shadow: 5px 5px 5px #eee;
+	text-shadow: none;
+}
+.input:focus,
+.msg .area:focus{
+  border: 2px solid #486255;
+}
+
+::-webkit-input-placeholder{
+  font-family: 'roboto';
+}
