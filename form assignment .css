@@ -1,12 +1,7 @@
-
-
 *{
   margin: 0;
   padding: 0;
 }
-
-
-
 
 .topnav{
   width:100%;
@@ -15,9 +10,8 @@
   position: fixed;
   top: 0;
   display: flex;
-  
-
 }
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -25,11 +19,11 @@ ul {
   overflow: hidden;
   background-color: #333;
   width: 100%;
- 
 }
 
 li {
-  float: right;
+  display: inline-block;
+  float: none;
 }
 
 li a {
@@ -40,10 +34,10 @@ li a {
   text-decoration: none;
 }
 
-
 li a:hover {
   background-color: #111;
 }
+
 .img{
   text-align: justify;
   max-width:100%;
@@ -51,7 +45,6 @@ li a:hover {
   margin-right:10px;
   margin-bottom:-140px;
 }
-
 
 body{
   background: url("background..jpg") no-repeat center center fixed; 
@@ -67,32 +60,32 @@ body{
 
 @keyframes fadeIn {
   0% { opacity: 0; }
-  100% { opacity: 1; }
+   100% { opacity: 1; }
 }
+
 .maincontainer{
-  
   margin: 10px auto;
   margin-bottom: -600px;
   letter-spacing: 1px;  
   padding: 10rem;
-  width: 100%;
   resize: vertical;
+}
 
-  
-}
 .other{
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
+
 .form-control{
   margin-bottom: 20px;
 }
+
 .container{
-  width: 45rem ;
+  width: 90%;
   padding-bottom: 20px;
   height: 42rem;
   background: #fff;
   position: absolute;
-  right: -5rem;
+  right: 5%;
   box-shadow: 0 0 20px;
   box-sizing: border-box;
   padding: 10px;
@@ -100,23 +93,28 @@ body{
   margin-top: -30px auto;
   padding-top: 20px;
 }
+
 h2{
   color:#fff8f8;
   font-size: 40px
 }
-h3{ align-items: center;
+
+h3{
+  align-items: center;
   color:#fdfdfd;
   margin-top: 10px;
   margin-left: 50px;
   font-size: 40px;
   width: 100%;
 }
-h4{align-items: center;
+
+h4{
+  align-items: center;
   color:#ffffff;
   margin-right: 20px;
   width: 100%;
-
 }
+
 p{
   text-align: left;
   letter-spacing: 1px;  
@@ -136,50 +134,4 @@ p{
   font-size: 14px;
   border-radius: 5px;
   outline: none;
-  transform: all 0.5s ease;
-}
-
-.login .input{
-  width: 48%;
-  float: left;
-  margin-right: 4%;
-}
-
-.login .input:last-child{
-  margin-right: 0;
-}
-
-.msg .area{
-  height: 100px;
-}
-input[type=button],
-      input[type=submit] {
-  width: 250px;
-  background: #486255;
-  height: 50px;
-  line-height: 50px;
-  text-align: center;
-  border-radius: 5px;
-  margin: 0 auto;
-  color: #fff;
-  text-transform: uppercase;
-  text-decoration: none;
-  cursor: pointer;
-  right: 500px;
-  
-      }
-input[type=button],input[type=submit]:hover {
-	background: #779d8a;
-	border: 1px solid  #779d8a;
-	border-radius: px;
-	box-shadow: 5px 5px 5px #b1abab;
-	text-shadow: none;
-}
-.input:focus,
-.msg .area:focus{
-  border: 2px solid #486255;
-}
-
-::-webkit-input-placeholder{
-  font-family: 'roboto';
-}
+ 
